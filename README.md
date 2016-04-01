@@ -8,6 +8,7 @@ A very tiny Flux implementation.
 * It is possible to intercept all 'actions' (for logging or recording or whatever) by wrapping all functions of a mutator. I have some proof of concept code for this but have not actually used it yet.
 * There is no dispatcher.
 * There is no dependency management between stores.
+* No state management. This is for when you have very simple state. It does not replace Redux or anything else.
 
 Written using ES2015 JavaScript. Uses the events package from NPM to handle events.
 
